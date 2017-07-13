@@ -115,7 +115,7 @@ function processMessage($message) {
     apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => 'I understand only text messages'));
   }
 }
-define('WEBHOOK_URL', 'https://my-site.example.com/secret-path-for-webhooks/');
+define('WEBHOOK_URL', 'https://raw.githubusercontent.com/5hev/yobitTelegram/edit/master/yobiTelegram.php');
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
   apiRequest('setWebhook', array('url' => isset($argv[1]) && $argv[1] == 'delete' ? '' : WEBHOOK_URL));
