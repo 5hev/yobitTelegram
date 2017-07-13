@@ -1,6 +1,6 @@
 <?php
-define('BOT_TOKEN', '12345678:replace-me-with-real-token');
-define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
+define('BOT_TOKEN', '424322716:AAFFdRaF_aEBtpVzvNRK_DU7L9klOmrYDqw');
+define('API_URL', 'https://api.telegram.org/bot424322716:AAFFdRaF_aEBtpVzvNRK_DU7L9klOmrYDqw/');
 function apiRequestWebhook($method, $parameters) {
   if (!is_string($method)) {
     error_log("Method name must be a string\n");
